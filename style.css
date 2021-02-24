@@ -1,0 +1,119 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif, Verdana, Tahoma;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 12pt;
+    margin: 0px 0px 0pt;
+    color: FEC56B;
+    font-family: sans-serif, Verdana, Tahoma;
+}
+.heading3 {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 0.9em;
+    color: #d20e50;
+    letter-spacing: 3pt;
+}
+table.layout {
+    width: 70%;
+    background-color: white;
+    text-wrap: none;
+}
+td {
+    color: Grey;
+    font-size: 14pt;
+    font-family: sans-serif, Verdana, Tahoma;
+}
+a:link {
+  color: #008f8f;
+  letter-spacing: 3pt;
+  text-decoration: underline;
+  font-size: 12pt;
+  font-family: Comic Sans MS;
+}
+a:visited {
+  color: rgb(90, 196, 132);
+  letter-spacing: 3pt;
+  text-decoration: underline;
+  font-size: 12pt;
+  font-family: Comic Sans MS;
+}
+a:active {
+  color: #d20e50;
+  letter-spacing: 3pt;
+  text-decoration: underline;
+  font-size: 12pt;
+  font-family: Comic Sans MS;
+}
+a:hover {
+  color: rgb(90, 196, 132);
+  letter-spacing: 2pt;
+  text-decoration: none;
+  font-size: 12pt;
+  font-family: Comic Sans MS;
+}
+input,
+select,
+textarea {
+  border: 2px solid #008f8f;
+  border-color: grey;
+  border-radius: 5px;
+  font-family: Tahoma, sans-serif, Verdana;
+  font-color: blue;
+  font-size: 12pt;
+  background-color: white;
+}
+input:focus {
+  outline: none;
+  border-color: #d20e50;
+  box-shadow: 0 0 10px #d20e50;
+}
+textarea:focus {
+  outline: none;
+  border-color: #d20e50;
+  box-shadow: 0 0 10px #d20e50;
+}
+textarea {
+  width: 176px;
+}
+select {
+  width: 55px;
+}
+.button {
+  min-height: 25px;
+  margin: 3px;
+  border: 2px solid #008f8f;
+  border-radius: 10px;
+  font-family: Tahoma, sans-serif, Verdana;
+  color: #7e0830;
+  font-size: 12pt;
+  background-color: #008f8f;
+  border-color: #000000;
+}
+.button:hover {
+  outline: none;
+  border-color: #d20e50;
+  box-shadow: 0 0 10px #d20e50;
+}
+.title {
+  color: #008f8f;
+  text-shadow: 1px 1px 1px  #7e0830;
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-bottom: -35px;
+  margin-top: -35px;
+}

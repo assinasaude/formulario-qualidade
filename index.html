@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<table class="layout" border="0" align="center">
+    <form name="addcust" onsubmit="return validatenewCust();">
+        <td colspan="2">
+        <table border="0" align="center">
+        <tr>
+            <td align="center" colspan="2">
+                <p class="heading3">
+                    Gerar uma consulta
+                </p>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>
+                Nome: <span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="name" maxlength="25" onKeyUp="validatecustomername();" onBlur="validatecustomername();">
+                <label id="message"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Queixa: <span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="name" maxlength="25">
+                <label id="message"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>Genero:<span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type ="radio" name ="rad1" value="1" checked>male
+                <input type ="radio" name ="rad1" value="1">female
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    Data de nascimento: <span class="mandatory">*</span>
+                </td>
+                <td>
+                    <input type="date" name="dob" id="dob"/>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Endereço:<span class="mandatory">*</span>
+            </td>
+            <td>
+                <textarea rows="5" cols="20" name="addr" maxlength="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cidade:<span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="city" maxlength="25" onKeyUp="validateCity();" onBlur="validateCity();">
+                <label id="message4"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Estado:<span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="state" maxlength="25" onKeyUp="validateState();" onBlur="validateState();">
+                <label id="message5"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                CEP:<span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="pinno" maxlength="6" onKeyUp="validatePIN();" onBlur="validatePIN();">
+                <label id="message6"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Celular<span></span>
+            </td>
+            <td>
+                <input type="text" name="telephoneno" maxlength="15" onKeyUp="validateTelephone();" onBlur="validateTelephone();">
+                <label id="message7"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail<span class="mandatory">*</span>
+            </td>
+            <td>
+                <input type="text" name="emailid" maxlength="30" onKeyUp="validateEmail();" onBlur="validateEmail();">
+                <label id="message9"></label>
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    <span class="mandatory">*<font size="3">
+                        <b> Campos obrigatórios</b></font>
+                    </span>
+                </td>
+                <td>
+                    <input type="submit" value="Submit" name="sub"/>
+                    <input type ="reset" value ="Reset" name ="res">
+                </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
