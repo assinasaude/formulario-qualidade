@@ -12,8 +12,8 @@ Nós sinceramente esperamos que você se divirta com esse desafio e talvez até 
 
 A tarefa de hoje é testar e documentar erros contidos em um formulário de agendamento de consultas.
 
-1. Acesse a página: ![https://condescending-leakey-a8e83b.netlify.app/](Link da página)
-2. Preencha um documento em Word, Excel ou PDF:
+1. Acesse a página do formulário: [Link da página](https://condescending-leakey-a8e83b.netlify.app/)
+2. Preencha um documento em Word, Excel ou Markdown:
 
 - Quais testes você acha necessário para testar essa aplicação?    
 - Quais problemas você encontrou?  
